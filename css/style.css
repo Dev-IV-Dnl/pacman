@@ -19,7 +19,38 @@
     background-image: url(../img/bonbon.gif);
 }
 
-.pacman {
+.pacmanDroite {
     background-image: url(../img/pacman4.gif);
     background-color: black;
+}
+
+.pacmanGauche {
+    background-image: url(../img/pacman4.gif);
+    transform: rotate(180deg);
+}
+
+.pacmanHaut {
+    background-image: url(../img/pacman4.gif);
+    transform: rotate(270deg);
+}
+
+.pacmanBas {
+    background-image: url(../img/pacman4.gif);
+    transform: rotate(90deg);
+}
+
+.fantome0 {
+    background-image: url(../img/fantome0.gif);
+}
+
+.fantome1 {
+    background-image: url(../img/fantome1.gif);
+}
+
+.fantome2 {
+    background-image: url(../img/fantome2.gif);
+}
+
+.fantome3 {
+    background-image: url(../img/fantome3.gif);
 }
