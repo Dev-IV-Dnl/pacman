@@ -20,22 +20,27 @@
 }
 
 .pacmanDroite {
-    background-image: url(../img/pacman4.gif);
+    background-image: url(../img/pac-man.gif);
     background-color: black;
+    background-size: 100%;
 }
 
 .pacmanGauche {
-    background-image: url(../img/pacman4.gif);
+    background-image: url(../img/pac-man.gif);
+    background-size: 100%;
     transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
 
 .pacmanHaut {
-    background-image: url(../img/pacman4.gif);
+    background-image: url(../img/pac-man.gif);
+    background-size: 100%;
     transform: rotate(270deg);
 }
 
 .pacmanBas {
-    background-image: url(../img/pacman4.gif);
+    background-image: url(../img/pac-man.gif);
+    background-size: 100%;
     transform: rotate(90deg);
 }
 
